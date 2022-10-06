@@ -4,10 +4,29 @@ body{
 .card{
   width: 400px;
   height: 200px;
+  box-sizing: border-box;
   padding: 1px 20px;
   background: url(../assets/background.png) no-repeat;
   background-size: cover;
   margin: auto;
+  margin-top: 10%;
+}
 
+a {
+  text-decoration: none;
+  color: #000000;
+  list-style: none;
+}
+
+.instagram{
+  list-style-image: url(../assets/Insta.png);
+}
+
+.twitter{
+ list-style-image: url(../assets/Twitter.png);
+}
+
+.youtube{
+  list-style-image: url(../assets/youtube.png);
 
 }
